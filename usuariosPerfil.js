@@ -38,3 +38,59 @@ var usuariosPerfil = {
      }
     ]
 }
+
+var categorias = {
+   categorias: [
+      {id: 1,
+      nome:'Pizzas',
+      descricaco: 'Todas as pizzas', 
+   imagem: ''},
+   
+   {id:2, 
+   nome: 'Bebidas',
+    descricaco: 'Todas as bebidas estão aqui',
+   imagem:''},
+
+   {id:3, 
+      nome: 'Pizzas doces',
+       descricaco: 'Todas as pizzas doces estão aqui',
+      imagem:''},
+
+      {id:4, 
+         nome: 'Sobremesa',
+          descricaco: 'Todas as sobremesas estão aqui',
+         imagem:''},
+
+         {id:5, 
+            nome: 'alcoólicos',
+             descricaco: 'Todas as bebidas com alcool estão aqui (apresentar documento na hora da entrega ou retirada)',
+            imagem:''},
+   ],
+}
+
+var pizzas = {
+   pizzas:
+   [ {id:'1',
+      nome: 'Marguerita',
+      preco: 'R$ 35,00',
+      descricao: 'Molho de tomate, mussarela fresca, manjericão e azeite.',
+      imagem: '',
+      categoria: [
+         categorias[1]
+      ],
+      favoritos: true,
+      avaliacao: 5,
+      comentarios:[
+         {
+            usuariosPerfil: 'Tamires Fernandes',
+            data:'15/06/2023',
+            avaliacaopessoal: '4'
+            
+         },
+         
+      ]
+
+},
+
+   ],
+}

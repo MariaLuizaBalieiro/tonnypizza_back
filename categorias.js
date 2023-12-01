@@ -1,6 +1,0 @@
-var categorias = {
-    pizzas:
-    [
-
-    ]
-}
