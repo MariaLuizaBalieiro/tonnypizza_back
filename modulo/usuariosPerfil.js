@@ -228,3 +228,10 @@ var bebidas = {
       {id: 1, nome:'Limone Spritz 2l', preco:'14.99', imagem:'', descricaco:'Uma refrescante mistura de água com gás, limão siciliano espremido e um toque sutil de xarope de açúcar.'}
    ]
 }
+
+
+module.exports={
+   categorias,
+   produtosJSON,
+   usuarioJSON
+}
