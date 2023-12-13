@@ -114,7 +114,7 @@ app.get('/usuarios', cors(), async function(request, response, next){
 
 app.get('/categoria/produtos', cors(), async function(request, response, next){
     let idCategorias = request.query.id
-    let controlePizzaria = require('./module/funcoes.js')
+    let controlePizzaria = require('./modulo/function.js')
     let categoriaProdutos = controlePizzaria.getCategorias(idCategorias)
 
     console.log(categoriaProdutos)
