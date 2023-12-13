@@ -83,7 +83,7 @@ const getCategoriasPizzas = (idCategoria) => {
 
     arrayPizza.forEach(function (produto) {
         produto.categoria.forEach(function (cate) {
-            if (cate.idCat === idCategoria) {
+            if (cate.idCat == idCategoria) {
                 let jsonPizza = {
                     foto: produto.foto,
                     nome: produto.nome,
